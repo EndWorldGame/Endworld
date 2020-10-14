@@ -1,0 +1,22 @@
+    <div id="firstCharCreateMenu">
+        <div id="charCreateMenuTitle">
+            <div><h3> Please Create A Character To Continue</h3></div>
+        </div>
+        <div id="charCreateContainer">
+            <div id="charCreateFormDiv">
+                <char-create-form [raceList]="charRaces" [classList]="charClasses" 
+                (formValue)="updateCharacterPreview($event)"></char-create-form>
+            </div>
+    
+            <div id="charCreatePreviewDiv">
+                <char-create-preview [character]="character"></char-create-preview>
+            </div>
+        </div>
+        <div id="charCreateAcceptButtonDiv">
+            <button 
+            [ngClass]="validCharacter() ? 'is-success' : 'is-disabled'" (click)="createCharacter()"
+            class="nes-btn" [disabled]="!character || !character.name"
+            >Create Character</button>
+        </div>
+
+    </div>

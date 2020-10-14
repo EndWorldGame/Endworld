@@ -1,0 +1,69 @@
+<div id="characterDiv">
+    Character Preview
+    <div id="cardBorder" class="nes-container is-rounded" *ngIf="character && character.name">
+        <div id="nameRow">
+            {{ character.name | titlecase }}
+        </div>
+        <div id="raceClassRow">
+            {{character.getRace().name}} {{character.getClass().name}}
+        </div>
+        <div id="imageContainer">
+            <div [ngStyle]="{background: 'url(./images/' + character.getClass().image + ')'}"
+             id="imageDiv" class="nes-container is-rounded" >
+                
+            </div>
+        </div>
+        <div id="hpRow">
+            <div id="hpDiv">
+                <div>
+                    {{ character.getCurrentHealth() }}/{{ character.getMaxHealth() }}
+                </div>
+                <div>
+                    <progress id="healthBar" class="nes-progress is-success" value="{{ character.getCurrentHealth() }}" 
+                        max="{{ character.getMaxHealth() }}"></progress>
+                </div>
+            </div>
+            <div id="apDiv">
+                <div>
+                    {{ character.getCurrentAbilityPoints() }}/{{ character.getMaxAbilityPoints() }}
+                </div>
+                <div>
+                    <progress id="apBar" class="nes-progress is-primary" value="{{ character.getCurrentAbilityPoints() }}" 
+                        max="{{ character.getMaxAbilityPoints() }}"></progress>
+                </div>
+            </div>
+        </div>
+
+        <div id="statsRow" class="nes-table-responsive">
+            <table class="nes-table is-bordered is-centered">
+                <thead>
+                    <th>STR</th>
+                    <th>AGI</th>
+                    <th>MND</th>
+                    <th>SPR</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>{{ character.getStrength() }}</td>
+                        <td>{{ character.getAgility() }}</td>
+                        <td>{{ character.getMind() }}</td>
+                        <td>{{ character.getSpirit() }}</td>
+                    </tr>
+                </tbody>
+            </table>
+          </div>
+
+
+
+        <div id="equipmentRow">
+            <div id="weaponRow" class="itemRow">
+                {{ character?.getWeapon().name }}
+            </div>
+
+            <div id="armorRow" class="itemRow">
+                {{ character?.getArmor().name }}
+            </div>
+        </div>
+    
+    </div>
+</div>

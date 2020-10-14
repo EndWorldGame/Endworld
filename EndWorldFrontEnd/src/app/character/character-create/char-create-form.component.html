@@ -1,0 +1,37 @@
+<div id="charCreateFormContainer">
+    <form #charCreateForm="ngForm" id="charCreateForm" ngNativeValidate="true">
+        <div class="nes-field" id="charNameDiv" class="charCreateFormDiv" >  <!-- Component ?? -->
+            <label for="charNameInput">Name</label>
+            <input #charNameInputVar="ngModel" name="charName" id="charNameInput" class="partyInput nes-input" 
+            [ngClass]="{'is-error': charNameInputVar.touched && !character.charName }" 
+            [(ngModel)]="character.charName" type="text" required maxlength="15">
+        </div>
+        <div id="nameError">
+            <div class="nes-text is-error" *ngIf="charNameInputVar.touched && !character.charName">Named Required</div>
+        </div>
+        <div id="raceChoiceDiv" class="charCreateFormDiv" >  <!-- Component ?? -->
+            <div>
+                Race
+            </div>
+            <div class="nes-select">
+                <select name="charRace" class="partyInput" [(ngModel)]="character.charRace">
+                    <option *ngFor="let x of raceList">
+                        {{ x.name }}
+                    </option>
+                </select>
+            </div>
+        </div>
+        <div id="classChoiceDiv" class="charCreateFormDiv">  <!-- Component ?? -->
+            <div>
+                Class
+            </div>
+            <div class="nes-select">
+                <select name="charClass" class="partyInput" [(ngModel)]="character.charClass">
+                    <option *ngFor="let class of classList">
+                        {{ class.name }}
+                    </option>
+                </select>
+            </div>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,9 @@
+<div id="loginSignupContainer">
+    <div>Welcome Back</div>
+    <div class="loginSignupButtonContainer">
+        <button (click)="goToLogin()" class="loginSignupButton nes-btn is-primary">Login</button>
+    </div>
+    <div class="loginSignupButtonContainer">
+        <a [routerLink]="['/character/create']"><button class="loginSignupButton nes-btn is-success">Create Character</button></a>
+    </div>
+</div>

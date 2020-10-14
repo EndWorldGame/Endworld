@@ -1,0 +1,11 @@
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\MessingAroun\bin\Debug\netcoreapp2.1\MessingAroun.deps.json
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\MessingAroun\bin\Debug\netcoreapp2.1\MessingAroun.runtimeconfig.json
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\MessingAroun\bin\Debug\netcoreapp2.1\MessingAroun.runtimeconfig.dev.json
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\MessingAroun\bin\Debug\netcoreapp2.1\MessingAroun.dll
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\MessingAroun\bin\Debug\netcoreapp2.1\MessingAroun.pdb
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\MessingAroun\obj\Debug\netcoreapp2.1\MessingAroun.csprojAssemblyReference.cache
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\MessingAroun\obj\Debug\netcoreapp2.1\MessingAroun.csproj.CoreCompileInputs.cache
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\MessingAroun\obj\Debug\netcoreapp2.1\MessingAroun.AssemblyInfoInputs.cache
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\MessingAroun\obj\Debug\netcoreapp2.1\MessingAroun.AssemblyInfo.cs
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\MessingAroun\obj\Debug\netcoreapp2.1\MessingAroun.dll
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\MessingAroun\obj\Debug\netcoreapp2.1\MessingAroun.pdb

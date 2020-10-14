@@ -1,0 +1,21 @@
+<div id="page-container" class="container nes-container is-rounded">
+    <div id="nav-bar-container" class="nes-container ">
+        <a [routerLink]="['']"> Main Menu </a> || <a [routerLink]="['battle']"> Battles </a> || <a [routerLink]="['shop']"> Stores </a>
+    </div>
+    <div id="main-content-container" >
+        <div id="main-window-container" class="nes-container is-rounded">
+            <router-outlet></router-outlet>
+        </div>
+        <div id="side-window-container" class="nes-container is-rounded">
+            <div class="nes-container is-rounded" *ngFor="let member of party">
+                <div>{{ member.name }} [{{ member.getLevel() }}]</div>
+                <div>{{ member.getRace().name }}</div>
+                <div>{{ member.getClass().name }}</div>
+                <div><progress class="halfBar nes-progress is-success" value="{{ member.getCurrentHealth() }}" 
+                    max="{{ member.getMaxHealth() }}"></progress></div>
+                <div><progress class="halfBar nes-progress is-primary" value="{{ member.getCurrentAbilityPoints() }}" 
+                    max="{{ member.getMaxAbilityPoints() }}"></progress></div>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+#raceChoiceDiv{
+    width: 45%;
+    float: left;
+}
+#classChoiceDiv{
+    width: 45%;
+    float: right;
+}
+
+#charCreateForm{
+    display: block;
+}
+
+#nameError{
+    height: 20px;
+}

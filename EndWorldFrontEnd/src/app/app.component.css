@@ -1,0 +1,62 @@
+.skillButton {
+    width: 150px;
+}
+
+.charbox {
+    border: 2px double black;
+    width: 200px;
+    height: 300px;
+}
+
+.imageBox{
+    border: 1px solid black;
+    height: 100px;
+    margin-left: 25px;
+    margin-top: 20px;
+    width: 150px;
+}
+
+#nav-bar-container {
+    position: relative;
+    height: 20%;
+    margin-bottom: 20px;
+    text-align: center;
+    background-color: white;
+}
+
+#page-container {
+    position: absolute;
+    height: auto;
+    width: 95%;
+    margin-left: 2.5%;
+    margin-top: 25px;
+}
+
+#main-content-container {
+    position: relative;
+    height: 650px;
+}
+
+#main-window-container {
+    position: relative;
+    width: 75%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    background-color: white;
+    padding: 0;
+}
+#side-window-container {
+    position: relative;
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    float: left;
+    margin-left: 4%;
+    text-align: center;
+    background-color: white;
+}
+.halfBar{
+    height: 20px;
+    margin-top: 10px;
+}

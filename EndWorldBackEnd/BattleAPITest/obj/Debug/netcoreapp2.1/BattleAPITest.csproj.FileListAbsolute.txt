@@ -1,0 +1,11 @@
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\BattleAPITest\bin\Debug\netcoreapp2.1\BattleAPITest.deps.json
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\BattleAPITest\bin\Debug\netcoreapp2.1\BattleAPITest.runtimeconfig.json
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\BattleAPITest\bin\Debug\netcoreapp2.1\BattleAPITest.runtimeconfig.dev.json
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\BattleAPITest\bin\Debug\netcoreapp2.1\BattleAPITest.dll
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\BattleAPITest\bin\Debug\netcoreapp2.1\BattleAPITest.pdb
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\BattleAPITest\obj\Debug\netcoreapp2.1\BattleAPITest.csprojAssemblyReference.cache
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\BattleAPITest\obj\Debug\netcoreapp2.1\BattleAPITest.csproj.CoreCompileInputs.cache
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\BattleAPITest\obj\Debug\netcoreapp2.1\BattleAPITest.AssemblyInfoInputs.cache
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\BattleAPITest\obj\Debug\netcoreapp2.1\BattleAPITest.AssemblyInfo.cs
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\BattleAPITest\obj\Debug\netcoreapp2.1\BattleAPITest.dll
+C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\BattleAPITest\obj\Debug\netcoreapp2.1\BattleAPITest.pdb

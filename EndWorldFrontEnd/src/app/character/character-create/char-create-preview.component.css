@@ -1,0 +1,106 @@
+#characterDiv{
+    position: absolute;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+    height: 100%;
+    position: relative;
+}
+
+#cardBorder{
+    height: 90%;
+    width: 320px;
+    position: relative;
+    display: inline-block;
+}
+
+#nameRow{
+    font-size: 12px;
+}
+#raceClassRow{
+    font-size: 12px;
+}
+
+#statsRow{
+    margin-top: 10px;
+    font-size: 14px;
+    display: inline-block;
+
+}
+
+#statsColumn{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    position: relative;
+    float: left;
+}
+
+#equipmentRow{
+    position: relative;
+    font-size: 12px;
+}
+
+#pictureColumn{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+    position: relative;
+    float: left;
+}
+
+#weaponRow{
+    position: relative;
+}
+
+#armorRow{
+    position: relative;
+}
+
+#imageDiv{
+    height: 150px;
+    width: 250px;
+    position: relative;
+    display: inline-block;
+    padding: 0;
+}
+
+#imageContainer{
+    text-align: center;
+}
+
+.itemRow{
+    padding: 3px;
+}
+
+#healthBar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px;
+}
+
+#apBar{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 20px; 
+}
+
+#hpRow{
+    height: 15%;
+    font-size: 14px;
+    padding-top: 10px;
+    text-align: center;
+}
+
+#hpDiv{
+    width: 45%;
+    position: relative;
+    float: left;
+}
+
+#apDiv{
+    width: 45%;
+    position: relative;
+    float: left;
+    margin-left: 6.5%;
+}
