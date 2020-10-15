@@ -21,7 +21,7 @@ const routes: Routes = [
   },
   {
     path: 'character',
-    loadChildren: () => import('./character/character.module').then(m => m.CharacterModule)
+    loadChildren: () => import('./main-modules/character-creation/character.module').then(m => m.CharacterModule)
   },
   {
     path: 'shop',
