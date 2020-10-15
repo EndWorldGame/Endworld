@@ -1,7 +1,7 @@
 import { Component, ViewChild, Output, EventEmitter, Input } from '@angular/core';
-import { CharClass } from '../../common/char-class';
+import { CharClass } from '../../../common/char-class';
 import { NgForm } from '@angular/forms';
-import { CharRace } from '../../common/char-race';
+import { CharRace } from '../../../common/char-race';
 
 @Component({
     selector: 'char-create-form',

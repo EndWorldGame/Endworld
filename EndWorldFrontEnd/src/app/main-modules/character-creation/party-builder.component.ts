@@ -1,15 +1,14 @@
 import { Component, ViewChild, ElementRef } from '@angular/core';
-import { CharClassList } from '../common/assets/char-class-list';
-import { CharClass } from '../common/char-class';
-import { CharRaceList } from '../common/assets/char-race-list';
-import { CharCreateFormComponent } from './character-create/char-create-form.component';
+import { CharClassList } from '../../common/assets/char-class-list';
+import { CharClass } from '../../common/char-class';
+import { CharRaceList } from '../../common/assets/char-race-list';
 import { NgForm } from '@angular/forms';
 import { ThrowStmt } from '@angular/compiler';
-import { Character } from '../common/character'
-import { CharClassService } from '../common/services/char-class.service';
-import { CharRace } from '../common/char-race';
-import { CharRaceService } from '../common/services/char-race.service';
-import { PartyService } from '../common/services/party.service';
+import { Character } from '../../common/character'
+import { CharClassService } from '../../common/services/char-class.service';
+import { CharRace } from '../../common/char-race';
+import { CharRaceService } from '../../common/services/char-race.service';
+import { PartyService } from '../../common/services/party.service';
 
 @Component({
     selector: 'party-builder',

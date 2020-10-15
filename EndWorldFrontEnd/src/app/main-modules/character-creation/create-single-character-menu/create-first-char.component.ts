@@ -1,7 +1,7 @@
 import { Component, ViewChild, Output, EventEmitter, Input } from '@angular/core';
-import { CharClass } from '../../common/char-class';
+import { CharClass } from '../../../common/char-class';
 import { NgForm } from '@angular/forms';
-import { CharRace } from '../../common/char-race';
+import { CharRace } from '../../../common/char-race';
 import { Character } from 'src/app/common/character';
 import { PartyService } from 'src/app/common/services/party.service';
 import { CharClassService } from 'src/app/common/services/char-class.service';
@@ -53,8 +53,10 @@ import { Router } from '@angular/router';
     }
 
     createCharacter(){
-      this.partyService.addCharacter(this.character)
-      this.router.navigate([''])
+      if (this.partyService.getPartySize() < 3){
+        this.partyService.addCharacter(this.character);
+      }
+      this.router.navigate(['']);
     }
 
   }

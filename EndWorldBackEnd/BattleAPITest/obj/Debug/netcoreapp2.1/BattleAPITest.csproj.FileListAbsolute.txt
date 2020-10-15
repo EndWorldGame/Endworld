@@ -9,3 +9,13 @@ C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\BattleAPITest
 C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\BattleAPITest\obj\Debug\netcoreapp2.1\BattleAPITest.AssemblyInfo.cs
 C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\BattleAPITest\obj\Debug\netcoreapp2.1\BattleAPITest.dll
 C:\TFS\PD\Sandbox\LVanCleef\ActionItems\NETArguments\MessingAround\BattleAPITest\obj\Debug\netcoreapp2.1\BattleAPITest.pdb
+C:\Users\letsc\Documents\Repositories\Endworld\EndWorldBackEnd\BattleAPITest\bin\Debug\netcoreapp2.1\BattleAPITest.deps.json
+C:\Users\letsc\Documents\Repositories\Endworld\EndWorldBackEnd\BattleAPITest\bin\Debug\netcoreapp2.1\BattleAPITest.runtimeconfig.json
+C:\Users\letsc\Documents\Repositories\Endworld\EndWorldBackEnd\BattleAPITest\bin\Debug\netcoreapp2.1\BattleAPITest.runtimeconfig.dev.json
+C:\Users\letsc\Documents\Repositories\Endworld\EndWorldBackEnd\BattleAPITest\bin\Debug\netcoreapp2.1\BattleAPITest.dll
+C:\Users\letsc\Documents\Repositories\Endworld\EndWorldBackEnd\BattleAPITest\bin\Debug\netcoreapp2.1\BattleAPITest.pdb
+C:\Users\letsc\Documents\Repositories\Endworld\EndWorldBackEnd\BattleAPITest\obj\Debug\netcoreapp2.1\BattleAPITest.csprojAssemblyReference.cache
+C:\Users\letsc\Documents\Repositories\Endworld\EndWorldBackEnd\BattleAPITest\obj\Debug\netcoreapp2.1\BattleAPITest.AssemblyInfoInputs.cache
+C:\Users\letsc\Documents\Repositories\Endworld\EndWorldBackEnd\BattleAPITest\obj\Debug\netcoreapp2.1\BattleAPITest.AssemblyInfo.cs
+C:\Users\letsc\Documents\Repositories\Endworld\EndWorldBackEnd\BattleAPITest\obj\Debug\netcoreapp2.1\BattleAPITest.dll
+C:\Users\letsc\Documents\Repositories\Endworld\EndWorldBackEnd\BattleAPITest\obj\Debug\netcoreapp2.1\BattleAPITest.pdb

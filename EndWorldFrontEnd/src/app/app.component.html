@@ -7,7 +7,7 @@
             <router-outlet></router-outlet>
         </div>
         <div id="side-window-container" class="nes-container is-rounded">
-            <div class="nes-container is-rounded" *ngFor="let member of party">
+            <div class="partyMemberButton nes-container is-rounded" *ngFor="let member of party">
                 <div>{{ member.name }} [{{ member.getLevel() }}]</div>
                 <div>{{ member.getRace().name }}</div>
                 <div>{{ member.getClass().name }}</div>
