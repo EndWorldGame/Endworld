@@ -2,8 +2,10 @@ EndWorldFrontEnd/node_modules/
 EndWorldBackEnd/obj/
 EndWorldBackEnd/bin/
 EndWorldAPI/.idea/
-EndworldAPI/EndworldAPI/EndworldAPI/bin/
-EndworldAPI/EndworldAPI/.idea/
+EndworldAPI/EndworldAPI/bin/
+EndworldAPI/EndworldAPI/obj/
+EndworldAPI/.idea/
+EndworldAPI/.vs/
 EndWorldFrontEnd/.idea/
 EndWorldBackEnd/.idea/
 EndworldAPI/EndworldAPI/EndworldAPI/bin/
